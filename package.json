@@ -4,7 +4,8 @@
   "description": "Uzum Marktet Clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel ./index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/jasurhaydarovcode/first-uzumMarket/issues"
   },
-  "homepage": "https://github.com/jasurhaydarovcode/first-uzumMarket#readme"
+  "homepage": "https://github.com/jasurhaydarovcode/first-uzumMarket#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "normalize.css": "^8.0.1"
+  }
 }
