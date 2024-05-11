@@ -1,0 +1,112 @@
+            /* !======================== FOOTER ======================== */
+
+.footer_pin 
+{
+    margin-top: -700px;
+}
+
+.footer_relesee 
+{
+    position: absolute;
+    left: 140px;
+    top: 1300px;
+    width: 1240px;
+    height: 300px;
+    /* background-color: var(--black-color--); */
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.foot_1 
+{
+    display: grid;
+    position: relative;
+    top: 690px;
+    gap: 10px;
+    left: 200px;
+}
+
+.foot_1 a
+{
+    text-decoration: none;
+    color: var(--grey-color--);
+}
+
+.foot_2 
+{
+    display: grid;
+    position: relative;
+    gap: 10px;
+    top: 644px;
+    left: 440px;
+    width: 310px;
+}
+
+.foot_2 a
+{
+    text-decoration: none;
+    color: var(--grey-color--);
+}
+
+.foot_3 
+{
+    display: grid;
+    position: relative;
+    gap: 10px;
+    top: 599px;
+    left: 750px;
+    width: 120px;
+}
+
+.open_platform 
+{
+    position: relative;
+    top: 550px;
+    left: 1130px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.open_platform img
+{
+    width: 86px;   
+    height: 34px;
+    position: relative;
+}
+
+.saseta 
+{
+    margin-top: 580px;
+    margin-left: 1130px;
+}
+
+.social_iconk 
+{
+    margin-left: 1130px;    
+}
+
+.social_iconk img
+{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.footer_links 
+{
+    margin-left: 160px;
+}
+
+.footer_links a
+{
+    text-decoration: none;
+    color: #000;
+    margin-right: 40px;
+}
+
+.ending 
+{
+    margin-left: 860px;
+    margin-top: -20px;
+}

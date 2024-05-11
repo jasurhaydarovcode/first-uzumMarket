@@ -1,0 +1,90 @@
+/* !========= Login css ========= */
+
+#list 
+{
+    display: none;
+    z-index: 101;
+    animation: kirish;
+    animation-duration: 0.3s;
+}
+
+@keyframes kirish {
+    0%{
+        opacity: 0.5;
+        transform: translateY(400px);
+    }
+    100%{
+
+    }
+}
+
+.biggcon{
+    display: flex;
+    /* justify-content: center; */
+    background-color: white;
+}
+
+.container_login{
+    position: absolute;
+    left: 620px;
+    width: 350px;
+    height: 418px;
+    box-shadow: grey 1px 0px 17px 1px;
+    border-radius: 7px;
+    z-index: 1;
+    background-color: white;
+}
+
+.exit{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+
+.texte2{
+    position: absolute;
+    top: 339px;
+    left: 30px;
+}
+
+.text_i
+{
+    position: absolute;
+    top: 80px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 20px;
+}
+
+.login_paragraf
+{
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    
+}
+
+.input_number{
+    position: absolute;
+    font-size: 30px;
+    left: 20px;
+    border-radius: 20px;
+    width: 310px;
+    height: 52px;
+    background-color: #E6E8ED;
+    margin: 32px 0px 0px;
+    border: none;
+    top: 160px;
+}
+
+.btn_sign_in {
+    width: 310px;
+    left: 20px;
+    height: 44px;
+    background: #7000FF;
+    border: none;
+    color: white;
+    top: 270px;
+    border-radius: 20px;
+    position: absolute;
+}

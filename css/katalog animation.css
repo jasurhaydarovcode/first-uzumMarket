@@ -1,0 +1,16 @@
+            /* !========= KaTALOG Click tap animation ========= */
+#list0{
+    animation: katalog;
+    animation-duration: 0.5s;
+    z-index: 100;
+}
+
+@keyframes katalog {
+    0%{
+        opacity: 30px;
+        transform: translateY(-6px);
+    }
+    100%{
+
+    }
+}

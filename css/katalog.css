@@ -1,0 +1,294 @@
+/* !======================= THIS IS KATALOG BUTTON ======================= */
+.big_ground{
+    position: absolute;
+    z-index: 1;
+    top: -128px;
+    left: 1px;
+    width: 1518px;
+    height: 865px;
+    background: #fff;
+    border-bottom: 1px solid gray;
+}
+
+.img_s_katalog{
+    display: grid;
+    gap: 14px;
+    position: absolute;
+    left: 140px;
+    top: 30px;
+}
+
+.img_s_katalog img{
+    width: 30px;
+}
+
+.img_s_katalog2{
+    display: grid;
+    gap: 14px;
+    position: absolute;
+    left: 140px;
+    top: 185px;
+}
+
+.img_s_katalog2 img{
+    width: 30px;
+}
+
+.p_texts_katalog{
+    position: absolute;
+    left: 180px;
+    top: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.p_texts_katalog_next{
+    position: absolute;
+    top: 185px;
+    left: 180px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+/* !======== hr EFFECT ======= */
+.hr_vertical{
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    width: 0.1px;
+    height: 840px;
+    background-color: gray;
+}
+
+.right_ico{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 30px;
+}
+
+.right_ico2{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 76px;
+}
+
+.right_ico3{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 119px;
+}
+
+.right_ico3{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 119px;
+}
+
+.right_ico4{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 165px;
+}
+
+.right_ico5{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 205px;
+}
+
+.right_ico6{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 244px;
+    transform-style: ;
+}
+
+.right_ico7{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 282px;
+}
+
+.right_ico8{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 322px;
+}
+
+.right_ico9{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 362px;
+}
+
+.right_ico10{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 402px;
+}
+
+.right_ico11{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 442px;
+}
+
+.right_ico12{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 482px;
+}
+
+.right_ico13{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 529px;
+}
+
+.right_ico14{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 569px;
+}
+
+.right_ico15{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 609px;
+}
+
+.right_ico16{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 649px;
+}
+
+.right_ico17{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 689px;
+}
+
+.right_ico18{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 729px;
+}
+
+.right_ico19{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 769px;
+}
+
+.right_ico20{
+    width: 30px;
+    position: absolute;
+    left: 360px;
+    top: 809px;
+}
+
+.odejda_katalog {
+    font-size: 25px;
+    position: absolute;
+    top: -2px;
+    left: 420px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.newwww{
+    display: flex;
+}
+
+.newwww p{
+    margin-left: 150px;
+    position: relative;
+    left: -150px;
+}
+
+.paragrafs_a{
+    display: flex;
+    position: relative;
+    gap: 170px;
+    margin-top: 10px;
+}
+
+.paragrafs_a a{
+    color: grey;
+}
+
+.paragrafs_b{
+    display: flex;
+    position: relative;
+    gap: 150px;
+    top: 10px;
+}
+
+.paragrafs_b a{
+    color: grey;
+}
+
+.paragrafs_c{
+    display: flex;
+    position: relative;
+    gap: 180px;
+    top: 20px;
+}
+
+.paragrafs_c a{
+    color: grey;
+}
+
+.paragrafs_d{
+    display: flex;
+    position: relative;
+    gap: 100px;
+    top: 30px;
+}
+
+.paragrafs_d a{
+    color: grey;
+}
+
+.selectors{
+    position: relative;
+    top: 40px;
+    gap: 30px;
+}
+
+.selectors select{
+    color: grey;
+    border: none;
+}
+
+.selectors2{
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
+.selectors2 select{
+    border: none;
+    color: grey;
+}

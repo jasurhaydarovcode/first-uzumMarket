@@ -1,0 +1,199 @@
+@import url(./css/login\ page\ none.css);       /*!====== Login JS to connect ======*/
+@import url(./css/header.css);      /*!====== Header to connect ======*/
+@import url(./css/footer.css);      /*!====== Footer to connect ======*/
+@import url(./css/katalog.css); /*!========= KATALOG BUTTON PAGE ======*/
+@import url(./css/katalog\ animation.css); /*!====== Katalog click animation ======*/
+@import url(./css/reset\ home\ page.css);
+
+
+:root {
+    --black-color--: #000;
+    --grey-color--: #8B8E99;
+    --blue--7k--: #7000FF;
+}
+
+*{
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+}
+
+
+
+.home_page__walper
+{
+    width: 1240px;
+    height: 413px;
+    border-radius: 15px;
+    margin-left: 135px;
+    margin-top: -70px;
+}
+
+.left-walper 
+{
+    width: 45px;
+    height: 45px;
+    margin-left: -1200px;
+    position: relative;
+    top: -180px;
+    background-color: #F2F4F7;
+    border-radius: 50%;
+}
+
+.right-walper 
+{
+    width: 45px;
+    height: 45px;
+    margin-left: 1070px;
+    position: relative;
+    top: -180px;
+    background-color: #F2F4F7;
+    border-radius: 50%;
+}
+
+.sena {
+    /* position: relative; */
+    font-size: 40px;
+    left: 133px;
+    top: 30px;
+    cursor: pointer;
+    margin-left: 135px;
+}
+
+
+
+
+ /* ! ============ CONTAINER PRODUCT ============ */
+.products {
+    /* background: var(--black-color--); */
+    width: 1240px;
+    height: 620px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+                       
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    flex-wrap: 300px;
+}
+
+.card {
+    /* background: var(--black-color--); */
+    display: grid;
+    border-radius: 12px;
+    width: 232px;
+    height: 309px;
+}
+
+
+.card:hover {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    transform: scale(1.02);
+}
+
+.card img{
+    width: 232px;
+    border-radius: 9px;
+}
+
+.product__names {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.product__names div{
+    width: 232px;
+    height: 187px;
+    /* background: var(--black-color--); */
+}
+
+.in__div img{
+    width: 22px;
+}
+
+.in__div mark{
+    border-radius: 5px;
+}
+
+.otvizif {
+    color: var(--grey-color--);
+    margin-left: 40px;
+    margin-top: -21px;
+}
+
+.del_money {
+    position: relative;
+    top:30px;
+    left: -80px;
+}
+
+.skidka_money {
+    height: 15px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    line-height: 120%;
+    margin-top: 2px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #353232;
+}
+
+
+.foot_3 a{
+    text-decoration: none;
+    color: var(--grey-color--);
+    width: 300px;
+}
+
+.buy_icon {
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.ekskliziv {
+    background-color: var(--blue--7k--);
+    color: #fff;
+    margin-top: -27px;
+    width: 80px;
+    height: 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.aktsiya {
+    background-color: #3B007D;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 22px;
+    width: 70px;
+    margin-top: -38px;
+    margin-left: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.aktsiya_2 {
+    background-color: #3B007D;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 22px;
+    width: 70px;
+    margin-top: -27px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
